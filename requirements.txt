@@ -1,0 +1,6 @@
+tensorflow==2.19.0
+tensorflow-metal
+tensorflow_datasets
+opencv-python
+matplotlib
+ipykernel

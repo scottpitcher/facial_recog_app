@@ -1,0 +1,12 @@
+# Ignore the virtual environment directory
+.venv/*
+
+# Ignore data 
+data/*
+application_data/*
+
+# Ignore training checkpoints
+training_checkpoints/*
+
+# Ignore model
+models/*

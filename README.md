@@ -34,6 +34,8 @@ Example 2: Matching with face-only anchor
 
 <sub><i>*All “Potential additions” are plan items for future work.*</i></sub>
 
+## Before and After Facial Cropping
+
 ## ⚙️ Features
 
 - 👀 **Face Detection & Cropping** (OpenCV)  

@@ -1,4 +1,4 @@
-# 🗝️ Face Recognition App (TensorFlow + OpenCV)
+# TensorFlow Face Recognition App
 
 This project is a robust face‐matching system that leverages a **Siamese CNN** and **OpenCV/MediaPipe** preprocessing to verify identities by comparing face embeddings. It isolates the face region to eliminate background bias and achieves high accuracy even in previously unseen environments.
 

@@ -28,6 +28,7 @@ Check out the full report and demo [here!](https://yourrepo.github.io/face_recog
 <img src="images/saliency_map.png" alt="Saliency Map" width="400">
 ---
 ## 🔨 Roadblocks + Solutions
+
 | Roadblock                                    | Solution                                                                                                |
 |----------------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Inconsistent embedding focus                 | Use Grad-CAM to verify and retrain network to concentrate on central facial landmarks                    |

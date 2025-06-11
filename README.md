@@ -22,7 +22,7 @@ Check out the full report and demo [here!](https://yourrepo.github.io/face_recog
 <sub><i>*Note: screenshots generated on custom test images.*</i></sub>
 
 ### Evaluating Cropped Face
-<img src="images/cropped_face.png" alt="Cropped Face" width="400">
+<img src="images/cropped_face.png" alt="Cropped Face" width="600">
 
 
 ### Example Output

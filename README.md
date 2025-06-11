@@ -21,10 +21,17 @@ Check out the full report and demo [here!](https://yourrepo.github.io/face_recog
 ## 💻 Example Usage
 <sub><i>*Note: screenshots generated on custom test images.*</i></sub>
 
+### Evaluating Cropped Face
 Example 1: Matching with original anchor  
 ![Original Anchor Match](images/original_match.png)  
 Example 2: Matching with face-only anchor  
 ![Face-Only Anchor Match](images/face_only_match.png)
+
+### Example Output
+![Example](images/example_output.png)  
+
+### Saliency Map  
+![Saliency Map](images/saliency_map.png)  
 
 ---
 ## 🔨 Roadblocks + Solutions

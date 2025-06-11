@@ -24,10 +24,6 @@ Check out the full report and demo [here!](https://yourrepo.github.io/face_recog
 ### Evaluating Cropped Face
 <img src="images/cropped_face.png" alt="Cropped Face" width="600">
 
-
-### Example Output
-<img src="images/example_output.png" alt="Example" width="400">
-
 ### Saliency Map  
 <img src="images/saliency_map.png" alt="Saliency Map" width="400">
 ---

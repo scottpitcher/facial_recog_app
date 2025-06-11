@@ -5,16 +5,17 @@ This project is a robust face‐matching system that leverages a **Siamese CNN**
 Check out the full report and demo [here!](https://yourrepo.github.io/face_recognition_demo)
 
 ## 🔍 Overview
-- **Captures** input images or live video streams
-  - Detects faces with **MediaPipe FaceMesh** or **OpenCV Haar cascades** 
-- **Crops** to the face-only region and **masks out** all background via segmentation 
-- **Embeds** each face crop using a pretrained **FaceNet**‐style CNN 
-- **Compares** embeddings using cosine‐distance thresholding in a Siamese architecture 
-- **Experiments** include:
-  - Original vs. face-only anchor evaluation
-  - Background augmentation during training to enforce invariance
-  - Grad-CAM visualizations to inspect model focus *(notebooks/gradcam_analysis.ipynb)*
-- **Automated** evaluation on custom test sets for continuous benchmarking *(scripts/evaluate.py)*
+- **Collects** training data  
+  - Captures **anchor + positive** images from a webcam  
+  - Pulls **LFW** photos as negatives for one-shot verification  
+- **Pre-processes** images with a TensorFlow **`tf.data`** pipeline  
+  - Resizes to **100 × 100 px**, scales to **[0 – 1]**, then batches & prefetches  
+- **Learns** compact face embeddings through a lightweight **CNN** shared by both inputs  
+  - A custom **L1-distance layer** + sigmoid outputs the “same person” probability (Siamese architecture)  
+- **Trains** end-to-end in Keras and checkpoints to `models/siamese_model.keras`  
+- **Evaluates** on a held-out test split with `batch_eval()` for quick metrics  
+- **Explains** decisions using gradient-based **saliency maps** to highlight influential pixels  
+- **Verifies** faces in real time: the `verify()` loop compares the saved anchor to live webcam frames and prints match confidence  
 
 ---
 ## 💻 Example Usage

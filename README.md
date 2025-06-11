@@ -28,11 +28,10 @@ Example 2: Matching with face-only anchor
 ![Face-Only Anchor Match](images/face_only_match.png)
 
 ### Example Output
-![Example](images/example_output.png)  
+<img src="images/example_output.png" alt="Example" width="400">
 
 ### Saliency Map  
-![Saliency Map](images/saliency_map.png)  
-
+<img src="images/saliency_map.png" alt="Saliency Map" width="400">
 ---
 ## 🔨 Roadblocks + Solutions
 | Roadblock                                    | Solution                                                                                                |

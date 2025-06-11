@@ -27,6 +27,7 @@ Check out the full report and demo [here!](https://yourrepo.github.io/face_recog
 ### Saliency Map  
 <img src="images/saliency_map.png" alt="Saliency Map" width="400">
 ---
+
 ## 🔨 Roadblocks + Solutions
 
 | Roadblock                                    | Solution                                                                                                |
